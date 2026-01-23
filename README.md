@@ -1,5 +1,7 @@
 # Script-bd-postman
 
+Enlace a la coleccion de postman https://planterna-7035017.postman.co/workspace/Plantern's-Team's-Workspace~0ef8e1f6-c9f5-4d3f-86c1-d4f5856ba6eb/collection/50993185-97f0ec19-9dd5-4133-b547-5aec97c3b70e?action=share&source=copy-link&creator=50993185 
+
 Capturas de Postman
 
 <img width="1916" height="1002" alt="image" src="https://github.com/user-attachments/assets/f544362b-d7ed-4949-81d5-a1b90a2ecb02" />
