@@ -11,7 +11,8 @@ INSERT INTO sala_cine ("id_sala", "nombre", "estado") VALUES
 (2, 'Sala 3D', 'Activa'),
 (3, 'Sala 2.5D', 'Activa');
 
-INSERT INTO pelicula_salacine (id_pelicula, id_sala, fecha_publicacion, fecha_fin) VALUES
+
+INSERT INTO pelicula_salacine ("id_pelicula_sala","id_pelicula", "id_sala", "fecha_publicacion", "fecha_fin") VALUES
 (1, 1, 1, '2026-01-01', '2026-04-01'),
 (2, 2, 1, '2026-02-01', '2026-03-12'),
 (3, 3, 2, '2026-01-01', '2026-02-02'),
