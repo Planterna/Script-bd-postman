@@ -2,7 +2,7 @@ CREATE TABLE pelicula (
 
 	id_pelicula SERIAL PRIMARY KEY,
 	nombre VARCHAR(100) NOT NULL,
-	duration INT NOT NULL,
+	duracion INT NOT NULL,
 	activo BOOLEAN DEFAULT TRUE
 )
 
