@@ -37,3 +37,9 @@ RETURNS VARCHAR AS $$
     WHERE s.nombre = nombre_sala;
 
 $$ LANGUAGE sql;
+
+
+
+SELECT setval('pelicula_id_pelicula_seq', (SELECT MAX(id_pelicula) FROM pelicula));
+SELECT setval('sala_cine_id_sala_seq', (SELECT MAX(id_sala) FROM sala_cine));
+SELECT setval('pelicula_salacine_id_pelicula_sala_seq', (SELECT MAX(id_pelicula_sala) FROM pelicula_salacine));
